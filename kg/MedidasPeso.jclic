@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="MedidasPeso" version="0.1.3">
+ <settings>
+  <title>Unități de măsură pentru masă</title>
+  <revision description="created" date="5/9/23">
+   <comments>
+    <p>După o idee spaniolă</p>
+   </comments>
+  </revision>
+  <author name="Elev Mămularu Alexia" rol="Autor" />
+  <organization name="Liceul Nicolae Titulescu" city="Slatina" country="România" state="Olt" />
+  <language>ro</language>
+  <description>
+   <p>Paquete de actividades para trabajar las medidas de peso: Gram, kiloGram y tonă a nivel básico, se plantean problemas y ejercicios de equivalencia.</p>
+  </description>
+  <descriptors area-codes="mat" level="ciclu primar" level-codes="PRI" />
+  <skin file="@orange.xml" />
+  <meta_langs>es,ro</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Paquete de actividades para trabajar las medidas de peso: Gram, kiloGram y tonă a nivel básico, se plantean problemas y ejercicios de equivalencia.</p>
+   </description>
+   <description language="ro">
+    <p>Pachet de activități pentru a înțelege lucru cu unitățile de măsură pentru masă : Gram, kilogram și tonă la nivel de bază, se pun probleme de echivalență și exerciții.</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="tonă.pac" name="00portad.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="10cartel.puz" />
+  <item name="11pre1.ass" />
+  <item name="11pro1.ass" />
+  <item name="12cal1.ass" />
+  <item name="12cal3.ass" />
+  <item name="12pro1.ass" />
+  <item name="13equi1.ass" />
+  <item name="13equi2.ass" />
+  <item name="14pro1.ass" />
+  <item name="15equi1.ass" />
+  <item name="16pro1.ass" />
+  <item name="17pro1.ass" />
+  <item name="20cartel.puz" />
+  <item name="21pro1.ass" />
+  <item name="22sopa.sop" />
+  <item name="23apro1.ass" />
+  <item name="23orden.puz" />
+  <item name="24pro1.ass" />
+  <item name="30dino1.ass" />
+  <item name="32orden.puz" />
+  <item name="32pro1.ass" />
+  <item name="33memo.puz" />
+  <item name="34pro1.ass" />
+  <item name="38equi1.ass" />
+  <item name="40mamut1.ass" />
+  <item name="42orden.puz" />
+  <item name="44memo.puz" />
+  <item name="46pro1.ass" />
+  <item name="95fondo.puz" />
+  <item name="98inform.ass" />
+  <item name="99final.ass">
+   <jump action="STOP" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="00portad.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Studiem unități de măsură pentru masă.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="portada.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.HolePuzzle" name="10cartel.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Potriviți pisele cu atenție</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Genial!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="2" cols="2" border="false" image="cartel1.gif">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="11pre1.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Ați citit informațiile de mai sus? Potriviți cu un clic.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Esti destept!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="1" cols="3" border="true" image="tira1.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0x0080C0" alternative="0x0080C0" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="319.0" cellHeight="110.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="29" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <p>Kilogram</p>
+    </cell>
+    <cell>
+     <p>Gram</p>
+    </cell>
+    <cell>
+     <p>1000</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="350.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="11pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Ești bun!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro8.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0x0080C0" alternative="0x0080C0" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="360.0" cellHeight="110.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="29" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>6 000 g|6000 g|6 000|6000|6 000 Grame|6000 Grame</p>
+    </cell>
+    <cell>
+     <p>3 000 g|3000 g|3 000|3000|3 000 Grame|3000 Grame</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="350.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="12cal1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Calculați și stabiliți relația</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Esti destept!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="160.0" border="true" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell id="0">
+     <p>1 kg =</p>
+    </cell>
+    <cell id="1">
+     <p>2 kg =</p>
+    </cell>
+    <cell id="2">
+     <p>5 kg =</p>
+    </cell>
+    <cell id="3">
+     <p>8 kg =</p>
+    </cell>
+    <cell id="4">
+     <p>10 kg =</p>
+    </cell>
+    <cell id="5">
+     <p>15 kg =</p>
+    </cell>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="200.0" cellHeight="80.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color background="0xFFFFB0" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>1 000 g</p>
+    </cell>
+    <cell>
+     <p>2 000 g</p>
+    </cell>
+    <cell>
+     <p>5 000 g</p>
+    </cell>
+    <cell>
+     <p>8 000 g</p>
+    </cell>
+    <cell>
+     <p>10 000 g</p>
+    </cell>
+    <cell>
+     <p>15 000 g</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="160.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell>
+     <p>1 kg = 1 000 g</p>
+    </cell>
+    <cell>
+     <p>2 kg = 2 000 g</p>
+    </cell>
+    <cell>
+     <p>5 kg = 5 000 g</p>
+    </cell>
+    <cell>
+     <p>8 kg =8 000 g</p>
+    </cell>
+    <cell>
+     <p>10 kg = 10 000 g</p>
+    </cell>
+    <cell>
+     <p>15 kg = 15 000 g</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="12cal3.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Observați balanța și dați răspunsul în funcție de greutatea fructelor.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Bine!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="reti1.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <ids>0 1 2 3 4 5</ids>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="199.0" cellHeight="102.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Comic Sans MS" size="26" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>1 kg</p>
+    </cell>
+    <cell>
+     <p>2 kg</p>
+    </cell>
+    <cell>
+     <p>1/2 kg</p>
+    </cell>
+    <cell>
+     <p>3  1/2 kg</p>
+    </cell>
+    <cell>
+     <p>2  1/2 kg</p>
+    </cell>
+    <cell>
+     <p>1  1/2 kg</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="12pro1.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Observați balanța cu atenție și stabiliți relațiile</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Perfect!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="pro1.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <ids>0</ids>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="238.0" cellHeight="80.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="22" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>3  1/2 kg</p>
+    </cell>
+    <cell>
+     <p>4 kg</p>
+    </cell>
+    <cell>
+     <p>3 kg</p>
+    </cell>
+    <cell>
+     <p>4  1/2 kg</p>
+    </cell>
+    <cell>
+     <p>2  1/2 kg</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="1" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="13equi1.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Știind că 1 kg = 1000 g, câte grame indică fiecare cântar?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Fabulos!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="reti1.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <ids>0 1 2 3 4 5</ids>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="199.0" cellHeight="102.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="24" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>1 000 g</p>
+    </cell>
+    <cell>
+     <p>2 000 g</p>
+    </cell>
+    <cell>
+     <p>500 g</p>
+    </cell>
+    <cell>
+     <p>3 500 g</p>
+    </cell>
+    <cell>
+     <p>2 500 g</p>
+    </cell>
+    <cell>
+     <p>1 500 g</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="13equi2.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Calculați și stabiliți relația cu un clic</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Esti destept!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="220.0" border="true" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="26" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell id="0">
+     <p>1 000 g</p>
+    </cell>
+    <cell id="1">
+     <p>1 250 g</p>
+    </cell>
+    <cell id="2">
+     <p>2 500 g</p>
+    </cell>
+    <cell id="3">
+     <p>5 000 g</p>
+    </cell>
+    <cell id="4">
+     <p>10 000 g</p>
+    </cell>
+    <cell id="5">
+     <p>25 000 g</p>
+    </cell>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="200.0" cellHeight="110.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color background="0xFFFFB0" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>1 kg</p>
+    </cell>
+    <cell>
+     <p>1  1/4 kg</p>
+    </cell>
+    <cell>
+     <p>2  1/2 kg</p>
+    </cell>
+    <cell>
+     <p>5 kg</p>
+    </cell>
+    <cell>
+     <p>10 kg</p>
+    </cell>
+    <cell>
+     <p>25 kg</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="220.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="14pro1.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Foarte Bine!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro2.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>200 pungi|200</p>
+    </cell>
+    <cell>
+     <p>8 pungi|8</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="15equi1.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Stabiliți relații de egalitate.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Minunat!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="220.0" border="true" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="26" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell id="0">
+     <p>1 kg</p>
+    </cell>
+    <cell id="1">
+     <p>1/2 kg</p>
+    </cell>
+    <cell id="2">
+     <p>5 kg</p>
+    </cell>
+    <cell id="3">
+     <p>1 000 g</p>
+    </cell>
+    <cell id="4">
+     <p>8 000 g</p>
+    </cell>
+    <cell id="5">
+     <p>100 g</p>
+    </cell>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="200.0" cellHeight="110.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color background="0xCAFFCA" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>1 000 g</p>
+    </cell>
+    <cell>
+     <p>500 g</p>
+    </cell>
+    <cell>
+     <p>5 000 g</p>
+    </cell>
+    <cell>
+     <p>1 kg</p>
+    </cell>
+    <cell>
+     <p>8 kg</p>
+    </cell>
+    <cell>
+     <p>1/10 de kg</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="220.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="16pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Minunat!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro3.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>750 Grame|3/4 kg|750|750 g|0.750 kg|.75 kg</p>
+    </cell>
+    <cell>
+     <p>250 Grame|250 g|250|1/4 kg|0.250 kg|.25 kg|0.25 kg</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="17pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Observați balanța, citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Perfect!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="pro6.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <ids>0</ids>
+   </cells>
+   <cells rows="1" cols="1" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <p>7.5 kg|7 1/2 kg|7.5|7 1/2|7 kg și jumătate |7.5|7 1/2|7 și jumătate</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="1" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@puzzles.HolePuzzle" name="20cartel.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Potriviți pisele cu atenție</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Genial! Acum citește cu atenție și mergi mai departe.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="2" cols="2" border="false" image="cartel2.gif">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="21pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Ești un as!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro5.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>4 000 kg|4000 kg|4 000|4000|4000 Kilograme|4 000 Kilograme</p>
+    </cell>
+    <cell>
+     <p>1 tonă|1 t|1|Una</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="22sopa.sop" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x80FF80" alternative="0x80FF80" />
+     </style>
+     <p>Găsiți Gram, Kilogram și tonă.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x80FF80" alternative="0x80FF80" />
+     </style>
+     <p>Esti destept!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <textGrid rows="15" columns="8" cellWidth="70.0" cellHeight="75.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>T*************G</row>
+     <row>O************R*</row>
+     <row>N***********A**</row>
+     <row>Ă**********M***</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>**KILOGRAM****</row>
+     <row>***************</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">GRAM</clue>
+    <clue id="1">KILOGRAM</clue>
+    <clue id="2">TONĂ</clue>
+   </clues>
+  </activity>
+  <activity class="@text.WrittenAnswer" name="23apro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Ești un campion!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro7.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>6 500 kg|6500 kg|6 500|6500|6 500 Kilograme|6500 Kilograme</p>
+    </cell>
+    <cell>
+     <p>1 500 kg|1500 kg|1 500|1500|1 500 Kilograme|1500 Kilograme</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="23orden.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Ordonați următoarele unități de greutate de la cel mai mic la cel mai mare.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Perfect!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="150.0" border="true">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Gram</p>
+    </cell>
+    <cell>
+     <p>Kilogram</p>
+    </cell>
+    <cell>
+     <p>tonă</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="24pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Minunat!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro4.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>3 000 kg|3000 kg|3 000|3000|3000 Kilograme|3000 kg</p>
+    </cell>
+    <cell>
+     <p>3 tone|3|3 t</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="30dino1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Câte kg au cântărit acești dinozauri?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Minunat!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reti2.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <ids>0 1 2 3 4 5</ids>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="260.0" cellHeight="210.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell>
+     <p>250 kg|250|250 Kilograme</p>
+    </cell>
+    <cell>
+     <p>3 000 kg|3 000|3 000 Kilograme|3000|3000 kg|3000 Kilograme</p>
+    </cell>
+    <cell>
+     <p>4 500 kg|4 500|4 500 Kilograme|4500|4500 kg|4500 Kilograme</p>
+    </cell>
+    <cell>
+     <p>7 000 kg|7 000|7 000 Kilograme|7000|7000 kg|7000 Kilograme</p>
+    </cell>
+    <cell>
+     <p>27 000 kg|27 000|27 000 Kilograme|27000|27000 kg|27000 Kilograme</p>
+    </cell>
+    <cell>
+     <p>72 000 kg|72 000|72 000 Kilograme|72000|72000 kg|72000 Kilograme</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="32orden.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Ordonează crescător.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Perfect!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reti2.gif">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="32pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Foarte Bine!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro92.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>250 kg|250 Kilograme|250</p>
+    </cell>
+    <cell>
+     <p>500 Kilograme|500 kg|500</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="33memo.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Fă perechi.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Ai memorie!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reti2.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="34pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Fabulos!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro91.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>7 250 kg|7250 kg|7 250|7250|7 250 Kilograme|7250 Kilograme</p>
+    </cell>
+    <cell>
+     <p>4.8 t|4.8 tonăs|4.8|4.80|4.800|4.800 t|4 800/1000 t|4 800/1000|4 4/5 t|4 8/10 t|4 8/10</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="38equi1.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Stabiliți relații.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Ești un mare matematician!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="220.0" border="true" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="26" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell id="0">
+     <p>600 kg</p>
+    </cell>
+    <cell id="1">
+     <p>6 000 kg</p>
+    </cell>
+    <cell id="2">
+     <p>60 000 kg</p>
+    </cell>
+    <cell id="3">
+     <p>250 kg</p>
+    </cell>
+    <cell id="4">
+     <p>2 500 kg</p>
+    </cell>
+    <cell id="5">
+     <p>25 000 kg</p>
+    </cell>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="200.0" cellHeight="110.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="24" />
+     <color background="0xCAFFCA" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>6/10 t</p>
+    </cell>
+    <cell>
+     <p>6 t</p>
+    </cell>
+    <cell>
+     <p>60 t</p>
+    </cell>
+    <cell>
+     <p>1/4 t</p>
+    </cell>
+    <cell>
+     <p>2  1/2 t</p>
+    </cell>
+    <cell>
+     <p>25 t</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="280.0" cellHeight="220.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="40mamut1.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Câte tone au acești mamuți? Relaționați cu un clic.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Wow! nu dai gres.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reti3.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <ids>0 1 2 3 4 5</ids>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="237.0" cellHeight="120.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="20" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>9/10 de t</p>
+    </cell>
+    <cell>
+     <p>4 t</p>
+    </cell>
+    <cell>
+     <p>6 t</p>
+    </cell>
+    <cell>
+     <p>6  1/2 t</p>
+    </cell>
+    <cell>
+     <p>7  1/4 t</p>
+    </cell>
+    <cell>
+     <p>8 t</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="42orden.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Ordonați crescător după greutate.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Perfect!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reti3.gif">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="44memo.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Faceți perechi.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Excelent!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reti3.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="46pro1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Citiți cu atenție și răspundeți.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="34" />
+      <color background="0xFFFFFF" inactive="0x66B3FF" alternative="0x66B3FF" />
+     </style>
+     <p>Fabulos!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="pro93.gif" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="30" bold="true" />
+     <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="100.0" border="true" id="answers">
+    <style>
+     <font family="Comic Sans MS" size="30" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>6 750 kg|6750 kg|6 750|6750</p>
+    </cell>
+    <cell>
+     <p>500 kg|500</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="2" cellWidth="260.0" cellHeight="150.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="paloma.gif" />
+    <cell image="paloma.gif" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="95fondo.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="33" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>În cele din urmă, aranjați piesele care reprezintă vânătoarea mamutului.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="33" />
+      <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+     </style>
+     <p>Ai înțeles!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="fondo.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="fondo3.gif">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color background="0xFFFFFF" inactive="0x6FB7FF" alternative="0x6FB7FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="98inform.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Matematica contribuie la dezvoltarea gândirii.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="logo.gif" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="final.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="99final.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0x80FF80" />
+     </style>
+     <p>Pe data viitoare!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="37" />
+      <color background="0x80FF80" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="logo.gif" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x800040" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="portada.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="cartel1.gif" file="cartel1-medidaspeso.gif" animated="false" />
+  <media name="cartel2.gif" file="cartel2-medidaspeso.gif" animated="false" />
+  <media name="final.gif" file="final-medidaspeso.gif" animated="false" />
+  <media name="fondo.gif" file="fondo-medidaspeso.gif" animated="false" />
+  <media name="fondo3.gif" file="fondo3-medidaspeso.gif" animated="false" />
+  <media name="logo.gif" file="logo-medidaspeso.gif" animated="false" />
+  <media name="paloma.gif" file="paloma-medidaspeso.gif" animated="false" />
+  <media name="portada.gif" file="portada-medidaspeso.gif" animated="false" />
+  <media name="pro1.gif" file="pro1-medidaspeso.gif" animated="false" />
+  <media name="pro2.gif" file="pro2-medidaspeso.gif" animated="false" />
+  <media name="pro3.gif" file="pro3-medidaspeso.gif" animated="false" />
+  <media name="pro4.gif" file="pro4-medidaspeso.gif" animated="false" />
+  <media name="pro5.gif" file="pro5-medidaspeso.gif" animated="false" />
+  <media name="pro6.gif" file="pro6-medidaspeso.gif" animated="false" />
+  <media name="pro7.gif" file="pro7-medidaspeso.gif" animated="false" />
+  <media name="pro8.gif" file="pro8-medidaspeso.gif" animated="false" />
+  <media name="pro91.gif" file="pro91-medidaspeso.gif" animated="false" />
+  <media name="pro92.gif" file="pro92-medidaspeso.gif" animated="false" />
+  <media name="pro93.gif" file="pro93-medidaspeso.gif" animated="false" />
+  <media name="reti1.gif" file="reti1-medidaspeso.gif" animated="false" />
+  <media name="reti2.gif" file="reti2-medidaspeso.gif" animated="false" />
+  <media name="reti3.gif" file="reti3-medidaspeso.gif" animated="false" />
+  <media name="tira1.gif" file="tira1-medidaspeso.gif" animated="false" />
+ </mediaBag>
+</JClicProject>
+

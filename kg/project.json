@@ -1,0 +1,103 @@
+{
+  "title": "Unități de măsură pentru masă",
+  "author": "Elev Mămularu Alexia (Autor)",
+  "school": "Liceul Nicolae Titulescu (Slatina)",
+  "date": "09.05.2023",
+  "langCodes": [
+    "ro"
+  ],
+  "languages": {
+    "es": "rumano",
+    "ro": "română"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "es": "Matemáticas",
+    "ro": "mat"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "es": "Primaria (6-12), ciclu primar",
+    "ro": "PRI, ciclu primar"
+  },
+  "description": {
+    "es": "Paquete de actividades para trabajar las medidas de peso: Gram, kiloGram y tonă a nivel básico, se plantean problemas y ejercicios de equivalencia.",
+    "ro": "Pachet de activități pentru a înțelege lucru cu unitățile de măsură pentru masă : Gram, kilogram și tonă la nivel de bază, se pun probleme de echivalență și exerciții."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>",
+    "ro": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es",
+    "ro"
+  ],
+  "mainFile": "MedidasPeso.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 64,
+  "mediaFiles": 51,
+  "totalSize": 3444487,
+  "files": [
+    "MedidasPeso.jclic",
+    "MedidasPeso.jclic.js",
+    "cartel1-medidaspeso.gif",
+    "cartel1.gif",
+    "cartel2-medidaspeso.gif",
+    "cartel2.gif",
+    "favicon.ico",
+    "final-medidaspeso.gif",
+    "final.gif",
+    "fondo-medidaspeso.gif",
+    "fondo.gif",
+    "fondo3-medidaspeso.gif",
+    "fondo3.gif",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "logo-medidaspeso.gif",
+    "logo.gif",
+    "paloma-medidaspeso.gif",
+    "paloma.gif",
+    "portada-medidaspeso.gif",
+    "portada.gif",
+    "pro1-medidaspeso.gif",
+    "pro1.gif",
+    "pro2-medidaspeso.gif",
+    "pro2.gif",
+    "pro3-medidaspeso.gif",
+    "pro3.gif",
+    "pro4-medidaspeso.gif",
+    "pro4.gif",
+    "pro5-medidaspeso.gif",
+    "pro5.gif",
+    "pro6-medidaspeso.gif",
+    "pro6.gif",
+    "pro7-medidaspeso.gif",
+    "pro7.gif",
+    "pro8-medidaspeso.gif",
+    "pro8.gif",
+    "pro91-medidaspeso.gif",
+    "pro91.gif",
+    "pro92-medidaspeso.gif",
+    "pro92.gif",
+    "pro93-medidaspeso.gif",
+    "pro93.gif",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "reti1-medidaspeso.gif",
+    "reti1.gif",
+    "reti2-medidaspeso.gif",
+    "reti2.gif",
+    "reti3-medidaspeso.gif",
+    "reti3.gif",
+    "tira1-medidaspeso.gif",
+    "tira1.gif"
+  ]
+}
